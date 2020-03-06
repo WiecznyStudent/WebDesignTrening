@@ -66,11 +66,31 @@ section{
 }
 
 aside:nth-of-type(2){
-    grid-area: aside-2
+    grid-area: aside-2;
+    margin:2%;
+    margin-right: 5%;
+    padding-left: 2vh;
 }
 
 
 footer{
     grid-area: footer;
     
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    padding-bottom: 50vh;
+    }
+     
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }
