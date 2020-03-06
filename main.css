@@ -1,0 +1,26 @@
+html,
+body, body>*{margin:0; padding:0;}
+
+.container{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "aside-1 aside-2";
+    height: 100vh;
+}
+
+aside:nth-of-type(1){
+    background-color: black;
+    grid-area: aside-1;
+    padding-top:20%;
+}
+
+aside:nth-of-type(2){
+    grid-area: aside-2;
+}
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+  }
